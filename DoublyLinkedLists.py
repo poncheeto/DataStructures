@@ -18,3 +18,8 @@ class Node:
 
     def get_value(self):
         return self.value
+
+class DoublyLinkedList:
+    def __init__(self):
+        self.head_node = None
+        self.tail_node = None
