@@ -37,3 +37,5 @@ class DoublyLinkedList:
     def add_to_tail(self, new_value):
         new_tail = Node(new_value)
         current_tail = self.tail_node
+        if current_tail != None:
+            
