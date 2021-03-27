@@ -51,5 +51,10 @@ class DoublyLinkedList:
         
     def remove_head(self):
         removed_head = self.head_node
+
         if removed_head is None:
             return None
+
+        self.head_node = removed_head.get_next_node()
+        if self.head_node != None:
+            self.head_node.set_prev_node(None)
