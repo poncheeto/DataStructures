@@ -61,3 +61,4 @@ class DoublyLinkedList:
 
         if remove_head == self.tail_node:
             self.remove_tail()
+        return removed_head.get_value()
