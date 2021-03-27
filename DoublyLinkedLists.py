@@ -48,3 +48,6 @@ class DoublyLinkedList:
         
         if self.head_node == None:
             self.head_node = new_tail
+        
+    def remove_head(self):
+        removed_head = self.head_node
