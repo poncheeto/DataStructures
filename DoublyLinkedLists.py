@@ -88,3 +88,5 @@ class DoublyLinkedList:
             current_node = current_node.get_next_node()
         if node_to_remove == None:
             return None
+        if node_to_remove == self.head_node:
+            self.remove_head()
