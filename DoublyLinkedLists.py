@@ -107,3 +107,5 @@ class DoublyLinkedList:
                     string_list += str(current_node.get_value()) + "\n"
                 current_node = current_node.get_next_node()
             return string_lists
+
+    subway = DoublyLinkedList()
