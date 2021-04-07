@@ -109,3 +109,7 @@ class DoublyLinkedList:
             return string_lists
 
     subway = DoublyLinkedList()
+    subway.add_to_head("Times Square")
+    subway.add_to_head("Grand Central")
+    subway.add_to_head("Central Park")
+    print(subway.stringify_list())
