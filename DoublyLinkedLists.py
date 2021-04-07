@@ -118,3 +118,11 @@ class DoublyLinkedList:
     subway.add_to_tail("Wall Street")
     subway.add_to_tail("Brooklyn Bridge")
     print(subway.stringify_list())
+
+    subway.remove_head()
+    subway.remove_tail()
+    print(subway.stringify_list())
+
+    subway.remove_by_value("Times Square")
+    print(subway.stringify_list())
+
