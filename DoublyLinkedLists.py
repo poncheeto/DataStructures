@@ -98,3 +98,12 @@ class DoublyLinkedList:
             next_node.set_prev_node(prev_node)
             prev_node.set_next_node(next_node)
         return node_to_remove
+
+        def stringify_list(self):
+            string_list = ""
+            current_node = self.head_node
+            while current_node:
+                if current_node.get_value() != None:
+                    string_list += str(current_node.get_value()) + "\n"
+                current_node = current_node.get_next_node()
+            return string_lists
